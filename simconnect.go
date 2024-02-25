@@ -32,6 +32,9 @@ type Report struct {
 	ATCAirline                        [128]byte `name:"ATC Airline"`
 	ATCFlightNumber                   [128]byte `name:"ATC Flight Number"`
 	ATCID                             [128]byte `name:"ATC ID"`
+	ATCModel                          [128]byte `name:"ATC Model"`
+	ATCHeavy                          bool      `name:"ATC Heavy"`
+	ATCType                           [128]byte `name:"ATC Type"`
 	Kohlsman                          float64   `name:"Kohlsman setting hg" unit:"inHg"`
 	Altitude                          float64   `name:"Plane Altitude" unit:"feet"`
 	AltitudeAboveGround               float64   `name:"Plane Alt Above Ground" unit:"feet"`
