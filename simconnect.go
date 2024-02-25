@@ -37,6 +37,7 @@ type Report struct {
 	ATCType                           [128]byte `name:"ATC Type"`
 	Kohlsman                          float64   `name:"Kohlsman setting hg" unit:"inHg"`
 	Altitude                          float64   `name:"Plane Altitude" unit:"feet"`
+	AltitudeIndicated                 float64   `name:"INDICATED ALTITUDE" unit:"feet"`
 	AltitudeAboveGround               float64   `name:"Plane Alt Above Ground" unit:"feet"`
 	Latitude                          float64   `name:"Plane Latitude" unit:"degrees"`
 	Longitude                         float64   `name:"Plane Longitude" unit:"degrees"`
