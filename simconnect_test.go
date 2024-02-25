@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	simconnect_data "github.com/JRascagneres/Simconnect-Go/simconnect-data"
+	simconnect_data "github.com/deanstalker/Simconnect-Go/simconnect-data"
 )
 
 func TestExample(t *testing.T) {
